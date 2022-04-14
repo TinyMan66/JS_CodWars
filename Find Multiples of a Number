@@ -1,0 +1,8 @@
+function findMultiples(integer, limit) {
+  var K = [];
+  for (i = integer; i <= limit; i++) {
+    if (i % integer == 0){
+      K.push(i);
+    }
+  } return (K);
+}
