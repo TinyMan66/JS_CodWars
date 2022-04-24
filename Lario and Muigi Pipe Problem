@@ -1,0 +1,9 @@
+function pipeFix(numbers){
+  var max = Math.max.apply(this, numbers);
+  var min = Math.min.apply(this, numbers);
+  var result = [];
+  for (let i = min; i <= max; i++) {
+    result.push(i);
+  }
+  return result;
+}
