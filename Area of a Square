@@ -1,0 +1,1 @@
+const squareArea = A => parseFloat((Math.pow(A / Math.PI * 2, 2)).toFixed(2));
