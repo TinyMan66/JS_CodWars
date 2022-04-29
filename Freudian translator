@@ -1,0 +1,15 @@
+function toFreud(string) {
+  let newArr = string.split(" ");
+  let result = '';
+  if (string === ''){
+    return '';
+  }
+  for (i = 0; i < newArr.length; i++){
+    if (i === 0 || i === newArr.length ){
+      result += "sex";
+    } else {
+      result += " sex";
+    }
+  }
+    return result;
+}
