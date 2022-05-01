@@ -1,0 +1,6 @@
+var countSheep = function (num){
+ let sheeps = "";
+  for (i = 1; i <= num; i++){
+    sheeps += (i + " sheep...");
+  } return sheeps;
+}
