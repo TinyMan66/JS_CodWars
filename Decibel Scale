@@ -1,0 +1,9 @@
+function dBScale(intensity) {
+  return 10 * ((Math.log(intensity / Math.pow(10,-12)) / Math.log(10)));
+}
+
+//decision two
+const dBScale = intensity => 10 * ((Math.log(intensity / Math.pow(10,-12)) / Math.log(10)));
+
+//decision three
+const dBScale = intensity => 10 * Math.log10(intensity / Math.pow(10,-12));
