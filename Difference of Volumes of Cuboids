@@ -1,0 +1,10 @@
+
+function findDifference(a, b){
+  let aV = a.reduce((acc, rec) => acc * rec);
+  let bV = b.reduce((acc, rec) => acc * rec);
+  return aV > bV ? aV - bV : bV - aV;
+}
+
+//second decision
+
+const findDifference = (a, b) => Math.abs(a.reduce((acc, rec) => acc * rec) - b.reduce((acc, rec) => acc * rec));
