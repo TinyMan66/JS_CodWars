@@ -1,0 +1,4 @@
+const booleanToString = b => b? "true" : "false";
+
+//second decision 
+const booleanToString = b => b.toString();
