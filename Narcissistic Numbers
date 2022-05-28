@@ -1,0 +1,17 @@
+/*Task:
+A Narcissistic Number is a number of length l in which the sum of its digits to the power of l is equal to the original number. 
+If this seems confusing, refer to the example below.
+
+Write a function that, given n, returns whether or not n is a Narcissistic Number.*/
+
+
+function isNarcissistic(n) {
+  let arr = [...n.toString()]; // number to String and to array of Strings
+  
+  let arrNum = arr.map(Number); // array of Strings to array of numbers
+  
+  /* raising each element of the numbers array to a power equal to the number of digits in the n. 
+  further addition of numbers and comparison with the n.*/
+  
+  return arrNum.map((num) => num ** String(n).length).map(i => x += i, x = 0).reverse()[0] == n ? true : false;
+} 
