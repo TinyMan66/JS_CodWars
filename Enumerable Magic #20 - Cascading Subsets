@@ -1,0 +1,13 @@
+//Task: Create a method each_cons that accepts a list and a number n, and returns cascading subsets of the list of size n.
+
+function eachCons(array, n) {
+  let res = [];
+  for (let i = 0; i <= array.length - n; i++){
+    let piece = [];
+    for (j = i; j < i + n; j++){
+      piece.push(array[j]);
+    }
+    res.push(piece);
+  }
+  return res;
+}
