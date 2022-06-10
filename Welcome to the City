@@ -1,0 +1,6 @@
+/*Task: Create a method that takes as input a name, city, and state to welcome a person. 
+The name will be an array consisting of one or more values,the length of the name array will vary.*/
+
+function sayHello( name, city, state ) {
+  return `Hello, ${name.join(" ")}! Welcome to ${city}, ${state}!`;
+}
