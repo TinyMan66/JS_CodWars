@@ -1,0 +1,6 @@
+//Task: Given an array with arrays of numbers. Return Sum of all numbers multiplied by 20.
+
+
+function stairsIn20(s){
+  return s.flat().reduce((a, b) => a + b, 0) * 20;
+}
