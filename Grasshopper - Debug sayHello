@@ -1,0 +1,5 @@
+//Task: Debugging sayHello function
+
+function sayHello(name) {
+  return `Hello, ${name}`;
+}
