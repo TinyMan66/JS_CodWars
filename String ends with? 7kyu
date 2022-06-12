@@ -1,0 +1,5 @@
+//Task: Complete function so that it returns true if the first argument(str) passed in ends with the 2nd argument(str).
+
+function solution(str, ending){
+  return str.includes(ending,str.length - ending.length);
+}
