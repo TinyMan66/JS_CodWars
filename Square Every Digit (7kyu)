@@ -1,0 +1,5 @@
+//Task:The function accepts and returns an integer. Need to square every digit of a number and concatenate them.
+
+function squareDigits(num){
+  return Number([...num.toString()].map(Number).map(item => item * item).join(""));
+}
