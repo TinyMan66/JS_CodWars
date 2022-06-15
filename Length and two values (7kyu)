@@ -1,0 +1,13 @@
+//Task: Given a number and two values, build an array of size n filled with firstValue and secondValue alternating.
+
+function alternate(n, firstValue, secondValue){
+  let arr = [firstValue];
+  for (let i = 0; i < n; i++) {
+    if (arr[i] === firstValue) {
+      arr.push(secondValue);
+    } else {
+      arr.push(firstValue);
+    }
+  }
+  return arr.slice(0,n);
+}
