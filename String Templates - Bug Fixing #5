@@ -1,0 +1,7 @@
+//Task: need to fix the code
+
+//added "$" sign and space.
+
+function buildString(...template){
+  return `I like ${template.join(', ')}!`;
+}
