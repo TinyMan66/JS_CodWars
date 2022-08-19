@@ -1,0 +1,4 @@
+/*Task: Write a function that always returns 5. 
+You can't use any of the following characters: 0123456789*+-/, even as string.*/
+
+const unusualFive = () => 'five_'.length;
