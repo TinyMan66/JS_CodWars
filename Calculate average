@@ -1,0 +1,3 @@
+//Task: Write a function which calculates the average of the numbers in a given list. Empty arrays should return 0.
+
+const findAverage = array => array.length === 0 ? 0 : array.reduce((a, b) => (a + b)) / array.length;
