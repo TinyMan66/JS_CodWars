@@ -1,0 +1,11 @@
+//Task: Write a program that finds the summation of every number from 1 to num.
+
+const summation = function (num) {
+  let sum = 0;
+  let a = 1;
+  while(a <= num){       
+       sum+=a;  
+       a++;
+    }
+  return sum;
+}
