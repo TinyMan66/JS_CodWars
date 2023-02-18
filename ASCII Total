@@ -1,0 +1,1 @@
+const uniTotal = string => string ? string.split("").map(l => x += l.charCodeAt(), x = 0).reverse()[0]: 0;
